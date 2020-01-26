@@ -10,7 +10,7 @@
     width: 2.8rem;
     height: 0.3rem;
     margin: 0 0 0.5rem 0;
-    background: #ffffff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
   // Rotate Into X with Menu Lines
@@ -102,7 +102,7 @@
     text-transform: uppercase;
     padding: 1.6rem 0;
     font-weight: 300;
-    color: #ffffff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
     &:hover {

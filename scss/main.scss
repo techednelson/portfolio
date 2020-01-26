@@ -1,8 +1,10 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
+@import "abstracts/functions";
 @import "base/reset";
 @import "base/base";
-@import "base/responsiveness";
 @import "layout/header";
 @import "layout/main";
 @import "components/menu";
+@import "pages/aboutme";
+@import "base/responsiveness";

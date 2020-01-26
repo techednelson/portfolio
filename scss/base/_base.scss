@@ -4,7 +4,7 @@ html {
 
 body {
   background: $primary-color;
-  color: #ffffff;
+  color: set-text-color($primary-color);
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, SansSerif;
   line-height: 1.5;
