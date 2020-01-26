@@ -1,6 +1,7 @@
-$primary-color: #444;
-
-body {
-  background: $primary-color;
-  color: #ffffff;
-}
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "base/reset";
+@import "base/base";
+@import "layout/header";
+@import "layout/main";
+@import "components/menu";
