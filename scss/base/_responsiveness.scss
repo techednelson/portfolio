@@ -10,6 +10,16 @@
 
 // Tablets & Small Laptops
 @include mediaMd {
+  // Headings
+  h1,
+  h2 {
+    &.lg-heading {
+      font-size: 5rem;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+  }
   main {
     align-items: center;
     text-align: center;
@@ -53,19 +63,30 @@
     grid-template-columns: 1fr;
   }
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+  }
+  .btn {
+    margin: auto;
+  }
+  .boxes {
+    margin-top: 6rem;
   }
 }
 
 // Desktops & Laptops
 @include mediaLg {
-
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // Wide screens
 @include mediaXl {
   .projects {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .item {
+    margin: auto;
   }
 }
 

@@ -31,15 +31,13 @@
 
   .job {
     background: lighten($primary-color, 5);
-    padding: 0.8rem;
+    padding: 2rem;
     border-bottom: solid 0.5rem $secondary-color;
+    border-radius: $radius;
+    margin-top: 2rem;
+  }
+  .text-date {
+    opacity: 0.5;
   }
 }
 
-#main-footer {
-  text-align: center;
-  padding: 1.6rem;
-  background: darken($primary-color, 10);
-  color: set-text-color($primary-color);
-  height: 6rem;
-}

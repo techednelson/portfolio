@@ -3,7 +3,9 @@
   grid-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
   img {
-    width: 100%;
+    border-radius: $radius;
+    width: 26rem;
+    height: 30rem;
     border: solid #ffffff 0.3rem;
     &:hover {
       opacity: 0.5;
