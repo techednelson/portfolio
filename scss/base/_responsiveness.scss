@@ -3,6 +3,9 @@
   main#home h1 {
     margin-top: 10vh;
   }
+  .projects {
+    grid-template-columns: 1fr;
+  }
 }
 
 // Tablets & Small Laptops
@@ -49,6 +52,9 @@
             "job3";
     grid-template-columns: 1fr;
   }
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 // Desktops & Laptops
@@ -58,6 +64,8 @@
 
 // Wide screens
 @include mediaXl {
-
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
