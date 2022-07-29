@@ -22,6 +22,11 @@ export const Avatar = styled.div`
   text-align: center;
 `;
 
+export const Img = styled.img`
+  width: 200px;
+  height: 200px;
+`
+
 export const PresentationText = styled.p`
   max-width: 800px;
   font-size: 24px;

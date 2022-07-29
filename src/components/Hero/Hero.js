@@ -1,8 +1,7 @@
 import React, { memo } from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { Avatar, LeftSection, PresentationText } from './HeroStyles';
-import Image from 'next/image';
+import { Avatar, Img, LeftSection, PresentationText } from './HeroStyles';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { AiFillLinkedin } from 'react-icons/ai';
 
@@ -15,7 +14,7 @@ const Hero = () => {
     <Section row nopadding>
       <LeftSection>
         <Avatar>
-          <Image src="/images/avatar3.svg" height={200} width={200} />
+          <Img src="/images/avatar3.svg"/>
         </Avatar>
         <SectionTitle main center>
           <PresentationText>
