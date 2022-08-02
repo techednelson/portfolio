@@ -18,8 +18,8 @@ const TechnologyComponent = ({ icon, name }) => (
   <Technology>
     <picture>
       {icon}
-    <span style={{ marginLeft: '10px' }}>{name}</span>
     </picture>
+    <span style={{ marginLeft: '10px' }}>{name}</span>
   </Technology>
 );
 

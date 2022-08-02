@@ -28,7 +28,7 @@ export const projects = [
     title: 'Crypto Union',
     description: 'Decentralized application (Dapp) which allows users to exchange Ethers from one account to another through the Ethereum Blockchain with crypto wallet Metamask.',
     image: '/images/crypto-union.png',
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Solidity', 'Hardhat'],
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'Solidity', 'Hardhat', 'Ethers.js'],
     source: 'https://github.com/techednelson/crypto-union',
     visit: 'https://crypto-union.netlify.app/',
     id: 1,
@@ -115,6 +115,7 @@ export const technologies = [
       { icon: <SiEthereum size="2rem" />, name: 'Ethereum', isSiIcon: true },
       { icon: <SiSolidity size="2rem" />, name: 'Solidity', isSiIcon: true },
       { icon: <FaHardHat size="2rem" />, name: 'Hardhat', isSiIcon: true },
+      { icon: <DiJavascript1 size="2.5rem"  />, name: 'Ethers.js' },
     ]
   }
 ]
