@@ -20,6 +20,8 @@ import {
   SiSolidity,
   SiKubernetes,
   SiNextdotjs,
+  SiBlockchaindotcom,
+  SiHiveBlockchain,
 } from 'react-icons/si';
 import { FaHardHat, FaDocker, FaCloud } from 'react-icons/fa';
 
@@ -114,6 +116,8 @@ export const technologies = [
     technologies: [
       { icon: <SiEthereum size="2rem" />, name: 'Ethereum', isSiIcon: true },
       { icon: <SiSolidity size="2rem" />, name: 'Solidity', isSiIcon: true },
+      { icon: <SiBlockchaindotcom size="2rem" />, name: 'Truffle', isSiIcon: true },
+      { icon: <SiHiveBlockchain size="2rem" />, name: 'Ganache', isSiIcon: true },
       { icon: <FaHardHat size="2rem" />, name: 'Hardhat', isSiIcon: true },
       { icon: <DiJavascript1 size="2.5rem"  />, name: 'Ethers.js' },
     ]
