@@ -21,7 +21,7 @@ const Hero = () => {
             Hi, my name is
           </PresentationText>
           Nelson Sandoval <br />
-          I'm a Full-Stack Engineer
+          I'm a Full Stack React-Node | Web3-blockchain Engineer
         </SectionTitle>
         <SectionText>
           I like to to build amazing and useful applications 🚀 <br/>
