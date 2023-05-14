@@ -21,11 +21,11 @@ const Hero = () => {
             Hi, my name is
           </PresentationText>
           Nelson Sandoval <br />
-          I'm a Full Stack React-Node | Web3-blockchain Engineer
+          I'm a DevOps Engineer with strong background in software engineering
         </SectionTitle>
         <SectionText>
-          I like to to build amazing and useful applications 🚀 <br/>
-          Currently I'm focused on Web, Cross-platform Mobile & Blockchain development 🧑‍💻.
+          I'm Passionate about Cloud & Infrastructure as Code 🚀 <br/>
+          I like Accelerating Software Delivery through Collaboration, Automation & Security 🧑‍💻.
         </SectionText>
         <Button onClick={handleClick}>
           <SocialIcons>

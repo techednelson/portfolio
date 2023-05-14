@@ -32,13 +32,13 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{p.description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent>Technologies</TitleContent>
             <TagList>
               {p.tags.map((t, i) => <Tag key={i}>{t}</Tag>)}
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks target="_blank" href={p.visit}>Visit</ExternalLinks>
+            {p.visit &&  <ExternalLinks target="_blank" href={p.visit}>Visit</ExternalLinks>}
             <ExternalLinks target="_blank" href={p.source}>Code</ExternalLinks>
           </UtilityList>
         </BlogCard>
